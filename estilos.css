@@ -1,0 +1,197 @@
+/*manipulacion de links*/
+#toolbar a.starter{
+    margin-left:20px;
+}
+
+#toolbar a{
+    color: #1a0900;
+    margin:10px;
+    text-decoration: none;
+}
+
+html {
+    scroll-padding-top: 20px; /* height of sticky header */
+  }
+
+/*manipulacion de trasfondo*/
+nav{
+    margin-top: -10px;
+    position:fixed;
+    background-color:antiquewhite;
+    width: 100%;
+    border-bottom-style:solid;
+    border-width: 1px;
+    padding:1px 0px 1px 0px;
+
+}
+
+
+
+#introduccion{
+    background-image:url("images/bg/background.png");
+    margin-top:10px;
+
+}
+
+#about{
+    background: -webkit-linear-gradient(top left, lightblue, white, lightyellow);
+    width:100%;
+}
+
+div.wrapper{
+    width:97%;
+    background-color:rgba(255,255,255,0.45);
+    margin-left:15px;
+    margin-right:5px;
+    margin-bottom:10px;
+    
+}
+
+#proyectos{
+    background-image: url("images/bg/bgnight.png");
+    color:antiquewhite;
+    margin-top:0;
+}
+
+#skillset table{
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#skillset{
+    background-image: url("images/bg/bgskills.png");
+    color:antiquewhite;
+}
+
+footer{
+    padding: 3px 0 3px 0;
+    background-color: black;
+    color:white;
+
+}
+
+/*manipulacion de texto*/
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+ul:not(#container){
+    line-height:25px;
+}
+
+
+#container a:link{
+    color:lightgrey;
+}
+
+#container a:visited{
+    color:grey;
+}
+
+#container a:hover{
+    color:white;
+}
+
+#skillset ul{
+    margin-left:30px;
+}
+
+#introduccion table{
+    margin-left:30px;
+}
+
+#profile{
+    margin-top:15px;
+}
+
+#introduccion ul{
+    margin-left:30px;
+}
+
+#container ul{
+    margin-left:25px;
+}
+
+#about p{
+    margin-top:5px;
+    margin-left:10px;
+    margin-right:40px;
+    margin-bottom:5px;    
+}
+
+#contacto span.left{
+    margin-left:5px;
+}
+
+#contacto span.right{
+    float:right;
+    padding-right:20px; 
+}
+
+#contacto a{
+    padding-left:3px;
+}
+
+#contacto span{
+    padding: 0 5px 0 5px;
+    vertical-align: middle;
+}
+
+
+/*manipulacion de imagenes*/
+
+.teedee{
+    text-align: right;
+}
+
+#profile{
+    margin-right:5%;
+    padding-top:5px;
+}
+
+#statspic{
+    max-width: 100%;
+}
+
+#contacto img.icons{
+    filter:invert(100%);
+    vertical-align: middle;
+}
+
+#contacto img.icons:hover{
+    filter:invert(70%)
+}
+
+
+/*manipulacion de tablas*/
+td{
+    width:50%;
+}
+*{
+    margin:0;
+    padding:0;
+}
+
+#container{
+    width:50%;
+}
+
+table{
+    width:97%;
+    margin:10px;
+}
+
+
+h1{
+    margin:20px;
+}
+
+h2{
+    margin:10px;
+    margin-left:30px;
+}
+
+div{
+    display:inline-block; 
+    padding:0; 
+    margin:0;
+    width:100%; 
+}
