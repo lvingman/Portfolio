@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Martin Ignacio Romero</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="images/icons/favicon.ico">
     <style>
         h2{padding-bottom: 2%;}
@@ -20,29 +23,60 @@
         html{
             scroll-behavior: smooth;
         }
+        nav .dropdown{
+            display: none;
+        }
+        @media screen and (max-width: 600px){
+            main{
+                margin: 24px; 
+                padding: 12px;  
+            }
+            #navbarNav{
+                display: none;
+            }
+            nav .dropdown{
+                display: inline;
+            }
+        }
     </style>
 </head>
 <body style="padding-top: 65px; margin-bottom:-100px;">
-    <nav class="navbar  navbar-default fixed-top  navbar-expand-md" style="background-color:   #f2f2f2" id="toolbar">
+    <nav class="navbar  navbar-default fixed-top  navbar-expand-sm" style="background-color:   #f2f2f2" id="toolbar">
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
+
+
+        <div id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item ">
                 <a class="nav-link" href="#introduccion">Introduccion </a>
-              </li>
-              <li class="nav-item">
+            </li>
+            <li class="nav-item ">
                 <a class="nav-link" href="#about">Acerca de mi</a>
-              </li>
-              <li class="nav-item">
+            </li>
+            <li class="nav-item ">
                 <a class="nav-link" href="#proyectos">Proyectos</a>
-              </li>
-              <li class="nav-item">
+            </li>
+            <li class="nav-item ">
                 <a class="nav-link" href="#skillset">Habilidades y Contacto</a>
-              </li>
+
             </ul>
+        </div>
+
+        <div class="dropdown" >
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Links de referencia
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="nav-link" href="#introduccion">Introduccion </a>
+                <a class="nav-link" href="#about">Acerca de mi</a>
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+                <a class="nav-link" href="#skillset">Habilidades y Contacto</a>
+            </div>
           </div>
+
+
     </nav>
-    <main class="col-xl-15 col-md-15 mx-md-5 py-md-3 pl-md-4 bd-content" >
+    <main class="col-xl-15 col-sm-15 mx-sm-5 py-sm-3 pl-sm-4 bd-content" >
         <div id="introduccion" style="padding-top: 65px; margin-top: -65px" class="text-center">
             <h1>Bienvenido!</h1>
             <br>
@@ -89,7 +123,7 @@
             <h2>Mis Proyectos</h2>
             <div class="row bg-light rounded-lg m-1  p-5 "  >
                 <div class="col-sm">
-                    <img src="images/fg/room.gif" class="img-fluid mx-auto d-block rounded" style="height:100%; margin-bottom: -15%;" 
+                    <img src="images/fg/room.gif" class="img-fluid mx-auto d-block rounded" style="height:100%; width:100%; margin-bottom: -15%;" 
                     alt="Room" id="statspic">
                 </div>
                 <div class="col-sm">
