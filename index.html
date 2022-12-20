@@ -38,10 +38,16 @@
                 display: inline;
             }
         }
+
+        #correo:hover {
+            text-decoration: underline;
+        }
+
+
     </style>
 </head>
-<body style="padding-top: 65px; margin-bottom:-100px;">
-    <nav class="navbar  navbar-default fixed-top  navbar-expand-sm navbar-light  " style="background-color:   #f2f2f2" id="toolbar">
+<body style=" margin-bottom:-100px; background-image:url(images/bg/bg2.png); background-repeat:no-repeat ; background-attachment:fixed; background-size:cover">
+    <nav class="navbar  navbar-default fixed-top  navbar-expand-sm navbar-dark   " style="background-color: rgb(5,5,5)" id="toolbar">
 
 
         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,16 +56,16 @@
           <div class="collapse navbar-collapse text-primary " id="navbarNav">
             <ul class="navbar-nav  ">
                 <li class="nav-item ">
-                    <a class="nav-link text-primary  " href="#introduccion">Introduccion </a>
+                    <a class="nav-link text-light  " href="#introduccion">Introduccion </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link text-primary " href="#about">Acerca de mi</a>
+                    <a class="nav-link text-light " href="#about">Acerca de mi</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link text-primary " href="#proyectos">Proyectos</a>
+                    <a class="nav-link text-light " href="#proyectos">Proyectos</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link text-primary " href="#skillset">Habilidades y Contacto</a>
+                    <a class="nav-link text-light " href="#skillset">Habilidades y Contacto</a>
     
                 </ul>
           </div>
@@ -67,145 +73,163 @@
  
 
     </nav>
-    <main class="col-xl-15 col-sm-15 mx-sm-5 py-sm-3 pl-sm-4 bd-content" >
-        <div id="introduccion" style="padding-top: 65px; margin-top: -65px" class="text-center">
-            <h1>Bienvenido!</h1>
-            <br>
-            <img src="images/fg/Foto perfil.jpg" class="rounded-circle mx-auto d-block " alt="Foto mia" id="profile">
-            <br>
-            <p>Soy Martin Romero, y este sitio web es mi portafolio. Es un gusto poder tenerle 
-                aca a usted.
-            </p>
-            
-            <p>En esta pagina usted puede ver:</p>
-            <ul>
-                <li>Acerca de mi</li>
-                <li>Mis proyectos</li>
-                <li>Mis habilidades y metodos de contacto</li>
-            </ul>
-            <hr>
-        </div>
 
-        
-        <div id="about" style="padding-top: 65px; margin-top: -65px;"  >
-            <h2>Acerca de Mi</h2>
-            <div class="wrapper bg-light rounded-lg p-3">
-                <p>Mi nombre es Martin Romero, aspirante a desarrollador informatico.</p>
-                <p>He tenido intereses del lado de la informatica desde chico, trabajando con kits
-                    de desarrollo de videojuegos en mi adolescencia. Pero no fue sino mi interes por
-                    la privacidad informatica lo que hizo que me metiese de lleno en este mundillo.
-                </p>
-                <p>
-                    Habiendo lidiado un buen tiempo de mi vida en foros y redes sociales, el conocimiento
-                    informatico me ha permitido reiteradas veces poder encontrar lo que
-                    busco y solucionar problemas que originalmente los consideraba imposibles
-                    de solucionar, y facilmente administrar la informacion que me vendria util.
-                </p>
-                <p>En la actualidad me encuentro estudiando en la Facultad Regional General
-                Pacheco de la UTN, Tecnicatura Superior en Programacion.
-            </p>
-            </div>
-        </div>
-        <hr>
-        
 
-    
-        <div id="proyectos" style="padding-top: 65px; margin-top: -65px;">
-            <h2>Mis Proyectos</h2>
-            <div class="row bg-light rounded-lg m-1  p-5 "  >
-                <div class="col-sm">
-                    <img src="images/fg/room.gif" class="img-fluid mx-auto d-block rounded" style="max-height:100%; margin-bottom: -14%;" 
-                    alt="Room" id="statspic">
-                </div>
-                <div class="col-sm">
-                    <ul style="padding-top: 15%">
-                        <li>
-                            <a href="https://github.com/lvingman/TP-WinForms-Romero-Mena">
-                                Programa para gestion de base de datos de articulos
-                                (.NET / Winforms)
-                            </a>
-                        </li>
-                        <br>
-                        <li>
-                            <a href="https://github.com/lvingman/Resumen-de-datos-de-gasolineras">
-                                Programa para observar datos respecto a las 
-                                ventas de gasolineras (C++)
-                            </a>
-                        </li>
-                        <br>
-                        <li>
-                            <a href="https://github.com/lvingman/Prototipo-Parcial-2">
-                                Programa para gestionar gastos por persona, incluyendo gastos
-                                de viajes y de reuniones (C++)
-                            </a>
-                        </li>
-                        <br>
-                        <li>
-                            <a href="https://github.com/lvingman/TP-Carrito-Romero">
-                                Programa para administrar un carrito de compras de un 
-                                e-commerce (.NET / ASP.NET)
-                            </a>
-                        </li>
-                    </ul>
+
+    <main class="" >
+        <div style="padding-top: 65px; background-color:rgba(0, 0, 0, 0.5);">
+            <div class="container body-content px-5 rounded-lg" style="background-color:rgba( 255, 255, 255, 0.7); margin-top: 90px ; margin-bottom:-20px; min-height:100vh" >
+                <div id="introduccion" style="padding-top: 65px; margin-top: -65px" class="text-center">
+                    <h1 style="font-size: min(9vw, 72px )">Bienvenido!</h1>
+                    <br>
+                    <img src="images/fg/Foto perfil.jpg" class="rounded-circle mx-auto d-block " style="max-height: 50%; max-width: 50%;" alt="Foto mia" id="profile">
+                    <br>
+                    <p>Soy Martin Romero, y este sitio web es mi portafolio. Es un gusto poder tenerle 
+                        aca a usted.
+                    </p>
                     
-                </div>
-            </div>
-
-        
-        </div>
-        <div id="skillset" style="padding-top: 40px; margin-top: -40px;">
-            <hr>
-            <h2>Mis Habilidades</h2>
-            <div class="row bg-light rounded-lg  m-1  p-5" >
-                <div class="col-sm">
-                    <ul style="padding-top: 10%">
-                        <li>                            
-                            Desarrollo de aplicaciones en C++, C# y Java. Mayor capacitacion en
-                            Programacion Orientada a Objetos (POO)
-                        </li>
-                        <br>
-                        <li>
-                            Desarrollo de front-end en HTML, CSS y JavaScript
-                        </li>
-                        <br>
-                        <li>
-                            Conocimientos sobre el uso cotidiano de la 
-                            plataforma Github                   
-                        </li>
-                        <br>
-                        <li>
-                            Armado de front-end de paginas web con
-                            Bootstrap
-                        </li>
-                        <br>
-                        <li>
-                            Nivel de ingles avanzado (CAE)
-                        </li>
-                        <br>
-                        <li>
-                            Manejo de base de datos a traves de SQL Server y T-SQL
-                        </li>
-                        <br>
-                        <li>
-                            Manejo de programas de edicion de imagen (GIMP, Paint.net)
-                        </li>
-                        <br>
-                        <li>
-                            Ensamblado, armado e instalacion de computadores
-                        </li>
+                    <p>En esta pagina usted puede ver:</p>
+                    <ul>
+                        <li>Acerca de mi</li>
+                        <li>Mis proyectos</li>
+                        <li>Mis habilidades y metodos de contacto</li>
                     </ul>
+                    <hr>
                 </div>
-                <div class="col-sm">
-                    <img src="images/fg/img2.gif" class="img-fluid mx-auto d-block rounded" style="max-height: 100%; margin-bottom: -35%"
-                    alt="Image 2" id="statspic">
-                </div>
-            </div>
 
-          </div>
+                
+                <div id="about" style="padding-top: 65px; margin-top: -65px;"  >
+                    <h2>Acerca de Mi</h2>
+                    <div class="wrapper bg-light rounded-lg p-3">
+                        <p>Mi nombre es Martin Romero, aspirante a desarrollador informatico.</p>
+                        <p>He tenido intereses del lado de la informatica desde chico, trabajando con kits
+                            de desarrollo de videojuegos en mi adolescencia. Pero no fue sino mi interes por
+                            la privacidad informatica lo que hizo que me metiese de lleno en este mundillo.
+                        </p>
+                        <p>
+                            Habiendo lidiado un buen tiempo de mi vida en foros y redes sociales, el conocimiento
+                            informatico me ha permitido reiteradas veces poder encontrar lo que
+                            busco y solucionar problemas que originalmente los consideraba imposibles
+                            de solucionar, y facilmente administrar la informacion que me vendria util.
+                        </p>
+                        <p>En la actualidad me encuentro estudiando en la Facultad Regional General
+                        Pacheco de la UTN, Tecnicatura Superior en Programacion.
+                    </p>
+                    </div>
+                </div>
+                <hr>
+                
+
+            
+                <div id="proyectos" style="padding-top: 65px; margin-top: -65px;">
+                    <h2>Mis Proyectos</h2>
+                    <div class="row bg-light rounded-lg m-1  p-5 "  >
+                        <div class="col-sm">
+                            <img src="images/fg/room.gif" class="img-fluid mx-auto d-block rounded" style="max-height:100%; margin-bottom: -14%;" 
+                            alt="Room" id="statspic">
+                        </div>
+                        <div class="col-sm">
+                            <ul style="padding-top: 15%">
+                                <li>
+                                    <a class="text-secondary font-weight-bold" style="text-decoration:underline" href="https://github.com/lvingman/TP-WinForms-Romero-Mena">
+                                        Programa para gestion de base de datos de articulos
+                                        (.NET / Winforms)
+                                    </a>
+                                </li>
+                                <br>
+                                <li>
+                                    <a class="text-secondary font-weight-bold" style="text-decoration:underline" href="https://github.com/lvingman/Resumen-de-datos-de-gasolineras">
+                                        Programa para observar datos respecto a las 
+                                        ventas de gasolineras (C++)
+                                    </a>
+                                </li>
+                                <br>
+                                <li>
+                                    <a class="text-secondary font-weight-bold" style="text-decoration:underline" href="https://github.com/lvingman/Prototipo-Parcial-2">
+                                        Programa para gestionar gastos por persona, incluyendo gastos
+                                        de viajes y de reuniones (C++)
+                                    </a>
+                                </li>
+                                <br>
+                                <li>
+                                    <a class="text-secondary font-weight-bold"  style="text-decoration:underline"  href="https://github.com/lvingman/TP-Carrito-Romero">
+                                        Programa para administrar un carrito de compras de un 
+                                        eCommerce (.NET / ASP.NET)
+                                    </a>
+                                </li>
+                                <br>
+                                <li>
+                                    <a class="text-secondary font-weight-bold"  style="text-decoration:underline"  href="https://github.com/Gaston097/TP-Final-Arganaraz-Romero">
+                                        Pagina web eCommerce con gestion de articulos, carrito y
+                                        ordenes de compra (.NET / ASP.NET)
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+
+                
+                </div>
+                <div id="skillset" style="padding-top: 40px; margin-top: -40px;">
+                    <hr>
+                    <h2>Mis Habilidades</h2>
+                    <div class="row bg-light rounded-lg  m-1  p-5" >
+                        <div class="col-sm">
+                            <ul style="padding-top: 10%; text-decoration:underline">
+                                <li>                            
+                                    Desarrollo de aplicaciones en C++, C# y Java. Mayor capacitacion en
+                                    Programacion Orientada a Objetos (POO)
+                                </li>
+                                <br>
+                                <li>
+                                    Desarrollo de front-end en HTML, CSS y JavaScript
+                                </li>
+                                <br>
+                                <li>
+                                    Conocimientos sobre el uso cotidiano de la 
+                                    plataforma Github                   
+                                </li>
+                                <br>
+                                <li>
+                                    Armado de front-end de paginas web con
+                                    Bootstrap
+                                </li>
+                                <br>
+                                <li>
+                                    Nivel de ingles avanzado (CAE)
+                                </li>
+                                <br>
+                                <li>
+                                    Manejo de base de datos a traves de SQL Server y T-SQL
+                                </li>
+                                <br>
+                                <li>
+                                    Manejo de programas de edicion de imagen (GIMP, Paint.net)
+                                </li>
+                                <br>
+                                <li>
+                                    Ensamblado, armado e instalacion de computadores
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm">
+                            <img src="images/fg/img2.gif" class="img-fluid mx-auto d-block rounded" style="max-height: 100%; margin-bottom: -35%"
+                            alt="Image 2" id="statspic">
+                        </div>
+                    </div>
+
+                </div>
+                <br>
+                <br>
+            </div>
+        <br>
+        <br>
+        </div>
     </main>
-    <footer id="contacto" class="bg-dark text-light py-3 text-center"  >
+    <footer id="contacto" class="text-light py-3 text-center" style="background-color: rgb(5,5,5)" >
         <span class="text-left">
-            Correo Electronico: <i>martin.romero.t@outlook.es</i>     
+            Correo Electronico: <i id="correo">martin.romero.t@outlook.es  </i>     
         </span>
         <span class="text-right">
             <a href="https://www.linkedin.com/in/martin-ignacio-romero/">
