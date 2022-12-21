@@ -26,7 +26,7 @@ const englishConfig = {
     "Nivel de ingles avanzado (CAE/C1)" : "Advanced level of English (CAE/C1)",
     "Manejo de base de datos a traves de SQL Server y T-SQL":"Database management (SQL Server and T-SQL)",
     "Manejo de programas de edicion de imagen (GIMP, Paint.net)":"Image editing (GIMP, Paint.net)" ,
-    "Ensamblado, armado e instalacion de computadores": "Assembly, assembly and installation of computers",
+    "Ensamblado, armado e instalacion de computadores": "Assembly and installation of computers",
     "Correo Electronico:":"e-Mail:",
     "🇬🇧":"🇪🇸"
 }
