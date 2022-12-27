@@ -10,7 +10,7 @@ const englishConfig = {
     "Mis habilidades y metodos de contacto": "My skills",
     "Acerca de Mi" : "About Me",
     "Mi nombre es Martin Romero, aspirante a desarrollador informatico.": "My name is Martin Romero, aspiring software developer.",
-    "He tenido intereses del lado de la informatica desde chico, trabajando con kits de desarrollo de videojuegos en mi adolescencia. Pero no fue sino mi interes por la privacidad informatica lo que hizo que me metiese de lleno en este mundillo.": "Since I was a child, I had interests in computer sciences, working with devkits during my teens. But it was my interest for internet privacy what drew me into this environment.",
+    "He tenido intereses del lado de la informatica desde chico, trabajando con kits de desarrollo de videojuegos en mi adolescencia. Pero no fue sino mi interes por la privacidad informatica, lo que hizo que me metiese de lleno en este mundillo.": "Since I was a child, I had interests in computer sciences, working with devkits during my teens. But it was my interest for internet privacy what drew me into this environment.",
     "Habiendo lidiado un buen tiempo de mi vida en foros y redes sociales, el conocimiento informatico me ha permitido reiteradas veces poder encontrar lo que busco y solucionar problemas que originalmente los consideraba imposibles de solucionar, y facilmente administrar la informacion que me vendria util.": "Having spent a good chunk of my life in forums and social networks, my computer knowledge has let me many times find what I need to solve problems I would have thought of them as impossible before. Plus managing useful information.",
     "En la actualidad me encuentro estudiando en la Facultad Regional General Pacheco de la UTN, Tecnicatura Superior en Programacion.": "As of now, I'm studying a B.A. in Programming and Computer Science in the National University of Technology in Argentina.",
     "Mis Proyectos":"My Projects",
@@ -28,6 +28,7 @@ const englishConfig = {
     "Manejo de programas de edicion de imagen (GIMP, Paint.net)":"Image editing (GIMP, Paint.net)" ,
     "Ensamblado, armado e instalacion de computadores": "Assembly and installation of computers",
     "Correo Electronico:":"e-Mail:",
+    "| Imagenes por ": "| Images by ",
     "🇬🇧":"🇪🇸"
 }
 
@@ -61,6 +62,7 @@ const spanishConfig = {
     "Image editing (GIMP, Paint.net)":"Manejo de programas de edicion de imagen (GIMP, Paint.net)" ,
     "Assembly, assembly and installation of computers":"Ensamblado, armado e instalacion de computadores",
     "e-Mail:":"Correo Electronico:",
+    "| Images by ":"| Imagenes por ",
     "🇪🇸":"🇬🇧"
 }
 
