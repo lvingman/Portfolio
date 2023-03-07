@@ -24,6 +24,7 @@ const englishConfig = {
     "Desarrollo de front-end en HTML, CSS, Bootstrap y JavaScript": "Front-end development with HTML, CSS, Bootstrap and JavaScript",
     "Administracion de proyectos en la plataforma Github":"Project management in Github",
     "Nivel de ingles avanzado (CAE/C1)" : "Advanced level of English (CAE/C1)",
+    "Integracion de bases de datos en aplicaciones web con ASP.NET, Webforms, Winforms, MVC, Entity Framework y LINQ" : "Database integration in web apps with ASP.NET, Webforms, Winforms, MVC, Entity Framework, and LINQ",
     "Manejo de base de datos a traves de SQL Server y T-SQL":"Database management (SQL Server and T-SQL)",
     "Manejo de programas de edicion de imagen (GIMP, Paint.net)":"Image editing (GIMP, Paint.net)" ,
     "Ensamblado, armado e instalacion de computadores": "Assembly and installation of computers",
@@ -61,6 +62,7 @@ const spanishConfig = {
     "Database management (SQL Server and T-SQL)":"Manejo de base de datos a traves de SQL Server y T-SQL",
     "Image editing (GIMP, Paint.net)":"Manejo de programas de edicion de imagen (GIMP, Paint.net)" ,
     "Assembly, assembly and installation of computers":"Ensamblado, armado e instalacion de computadores",
+    "Database integration in web apps with ASP.NET, Webforms, Winforms, MVC, Entity Framework, and LINQ": "Integracion de bases de datos en aplicaciones web con ASP.NET, Webforms, Winforms, MVC, Entity Framework y LINQ" ,
     "e-Mail:":"Correo Electronico:",
     "| Images by ":"| Imagenes por ",
     "🇪🇸":"🇬🇧"
