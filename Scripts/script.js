@@ -76,20 +76,20 @@ function show(){
 const targetEl = document.querySelector('.target');
 
 const loadPage = number => {
-    var url = "./../Home/Index.html"
+    var url = "./Views/Home/Index.html"
 
     switch (number){
         case 1:
-            url = "./../Home/Index.html"
+            url = "./Views/Home/Index.html"
             break;
         case 2:
-            url = "./../Home/Proyects.html"
+            url = "./Views/Home/Proyects.html"
             break;
         case 3:
-            url = "./../Home/Skillset.html"
+            url = "./Views/Home/Skillset.html"
             break;
         case 4:
-            url = "./../Home/Education.html"
+            url = "./Views/Home/Education.html"
             break;    
             
     }
